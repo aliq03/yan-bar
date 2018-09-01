@@ -1,5 +1,5 @@
 ﻿div#menueditor.menueditor.open {
-    width: 346px;
+    width: 360px;
 }
 
 .menueditor ul {
@@ -132,7 +132,7 @@ div#menueditor li button {
     vertical-align: inherit;
     padding: 8px 23px 8px 18px;
     background: white;
-    margin-left: -9px;
+    margin-left: -16px;
     outline: none;
 color: #313131;
 }
