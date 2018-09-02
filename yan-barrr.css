@@ -13,13 +13,7 @@
     -webkit-user-select: none;
 }
 .backqroundedit {
-    background: #eaeaea;
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    z-index: 0;
-    position: absolute;
-    margin:3px 13px;
+display:none;
 }
 .open .backqroundedit {
     margin: 4px 14px;
@@ -65,6 +59,7 @@ display: inline-block;
   min-width:70px;
 }
 
+
 .menueditor li:first-child>span{
    line-height:280%;
 }
@@ -87,7 +82,7 @@ display: inline-block;
     background: #000;
     top: -5px;
     display: inline-block;
-    left: 4.5px;
+    left: 5.5px;
     right: 0;
 }
 
@@ -129,12 +124,13 @@ display: inline-block;
 div#menueditor li button {
     background: white;
     border: 0;
-    vertical-align: inherit;
+    display: inline-flex;
     padding: 8px 23px 8px 18px;
     background: white;
     margin-left: -16px;
     outline: none;
-color: #313131;
+    color: #313131;
+    cursor: pointer;
 }
 div#menueditor li button:hover {
     background: #e0e0e0;
@@ -152,7 +148,7 @@ div#menueditor li button:hover {
     border-left-width: 0px;
 }
 div#menueditor li button:before {
-    vertical-align: bottom;
+    vertical-align: text-top;
     margin-right: 4px;
 }
 div#menueditor li button#show-img:before {
